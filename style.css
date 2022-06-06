@@ -1,0 +1,85 @@
+html{
+    font-family: "Red Hat Display";
+}
+
+main {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(./order-summary-component-main/order-summary-component-main/images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body {
+    margin:0%;
+}
+
+#checkout-container {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    background-color: white;
+    clip-path: border-box;
+}
+   
+
+
+#checkout-image>img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+button{
+    border-radius: 10px;
+    width: 100%;
+    padding: 1rem;
+    background-color: hsl(245, 82%, 79%);
+    color: white;
+    margin: 1rem 0;
+    box-shadow: 20px 20px 5px hsl(231, 45%, 94%);
+    border: none;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500, 700, 900;
+}
+
+.w3-container {
+    border-radius: 10px;
+    width: 100%;
+    padding: 0rem;
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+    .container {
+      height: 200px;
+      position: relative;
+      border: 3px solid green;
+    }
+    
+    .center {
+     
+      text-align: center;
+    }
+
+    
+    .checkout-body {
+        padding: 1.5rem;
+        font-weight: 200px;
+    }
+
+    .icon-container{
+        background-color: hsl (224, 23%, 55%);
+    }
